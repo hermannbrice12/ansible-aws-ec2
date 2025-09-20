@@ -1,10 +1,10 @@
 #ec2 information
-instance_type: t2.medium
+instance_type: t4g.micro
 security_group_name: "devops-sg"
-id_token: "550e8400-e29b-41d4-a716-446655440079"
+id_token: "0d4955c2-8b3b-4123-bd51-66b7280d26b1"
 host_group_name: "server"
-aim_centos7: "ami-0aedf6b1cb669b4c7"
-key_name: "devops"
-region: "us-east-1"
+aim_ubuntu: "ami-09ac0b140f6303458"
+key_name: "devops-victor"
+region: "eu-west-3"
 host_group : "server"
-subnet : "subnet-07f678543295c5203"
+subnet : "subnet-0e34fa80cd075af9c"
